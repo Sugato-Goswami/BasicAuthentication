@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@400;500;600;700&display=swap');
+
+ 
+  *{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+  html
+  {
+    scroll-behavior: smooth;
+  }
+  body
+  {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .content
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+
+
+  }
+  .logins{
+    cursor: pointer;
+    margin-left: 88%;
+    margin-top: 2%;
+  }
+  .card
+  {
+    
+    
+    width: 23%;
+    box-shadow: 0px 2px 9px 9px #f3f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 39%;
+    margin-top: 1%;
+
+
+      
+  }
+  .title
+  {
+    font-size: 27px;
+    font-weight: 650;
+  }
+  
+  .titlearea
+  {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 100%;
+  
+}
+.email input{
+  height: 6vh;
+  width: 100%;
+  margin-top: 21px;
+  border-radius: 6px;
+  padding-left: 10px;
+}
+  
+.password input{
+    height: 6vh;
+    width: 100%;
+    margin-top: 21px;
+    border-radius: 6px;
+    padding-left: 10px;
+
+}
+.forgot
+{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: ROYALBLUE;
+    cursor: pointer;
+}
+.login_button input
+{
+  height: 6vh;
+  width: 100%;
+  border-radius: 25px;
+  margin-top: 44px;
+  font-size: 107%;
+  background-color: ROYALBLUE;
+  border: none;
+  color: white;
+  transition: transform 0.3s ease;
+  cursor: pointer
+}
+.login_button input:hover{
+  transform: scale(1.1); 
+}
+
+.button
+{
+  border-radius: 25px;
+  height: 6vh;
+  width: 100%;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+
+.password{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 21px;
+    
+    position: relative;
+}
+.password input{
+
+  height: 6vh;
+  width: 100%;
+  margin-top: 21px;
+  border-radius: 6px;
+  padding-left: 10px;
+  padding-right: 25%;
+}
+.password .show{
+  position: absolute;
+  top: 52%;
+  right: 6%;
+  font-weight: 600;
+  font-size: 13px;
+  color: royalblue;
+  cursor: pointer;
+}
+.master_container{
+  padding: 6%;
+}
